@@ -1,0 +1,99 @@
+@font-face {
+	font-family: 'Poppins'; 
+	src: url(../fonts/Poppins-Medium.ttf); 
+}
+@font-face {
+	font-family: 'Poppins Bold'; 
+	src: url(../fonts/Poppins-ExtraBold.ttf); 
+}
+
+.banner {
+    width: 300px;
+    height: 427px;
+    background-color: #FFEEC1;
+    margin: 0 auto;
+    overflow: hidden;
+
+    &.width-320 {
+        width: 320px;
+    }
+}
+
+.banner-text {
+    position: relative;
+    z-index: 1;
+
+    p {
+        color: #151519;
+        text-align: center;
+    }
+    .join {
+        position: relative;
+        top: -70px;
+        padding-top: 50px;
+        margin: 0;
+        line-height: 21.08px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 10.53px;
+    }
+
+    .choose {
+        margin-left: -540px;
+        margin-top: -1px;
+        font-family: 'Poppins Bold';
+        font-size: 27.92px;
+    }
+}
+
+.banner-figure {
+    div {
+        transform-origin: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .board {
+        height: 247px;
+        background-image: url(../image/board.svg);
+        top: -354px;
+        left: -106.855px;
+
+        &.width-320 {
+            left: -96.855px;
+        }
+    }
+    .organic-shapes {
+        width: 257px;
+        height: 317px;
+        background-image: url(../image/organic-shapes.svg);
+        top: 91px;
+        left: -29px;
+
+        &.width-320 {
+            left: -19px;
+        }
+    }
+    .school-elements {
+        width: 272.32px;
+        height: 221px;
+        background-image: url(../image/school-elements.svg);
+        top: -576px;
+        left: 88px;
+
+        &.width-320 {
+            left: 98px;
+        }
+    }
+
+    .stationery {
+        width: 185.05px;
+        height: 157.24px;
+        background-image: url(../image/stationery.svg);
+        top: -647px;
+        left: 190px;
+
+        &.width-320 {
+            left: 200px;
+        }
+    }
+}
